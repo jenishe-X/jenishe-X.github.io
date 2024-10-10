@@ -1,9 +1,38 @@
-<script>import "../app.css";</script>
+<script lang="ts">
+    import Footer from "../components/Footer.svelte";
+    import Header from "../components/Header.svelte";
+    import "../app.css";
 
-<svelte:head>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
-<link href="https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
-</svelte:head>
+    let y: number = 0; // Explicitly typed as number
+    let innerWidth: number = 0;
+    let innerHeight: number = 0; // Still keeping innerHeight for scroll height binding
 
-<slot></slot>
+    function goTop() {
+        document.body.scrollIntoView();
+    }
+</script>
+
+<div
+    class="container relative flex flex-col max-w-[1400px] mx-auto w-full text-sm sm:text-base min-h-screen"
+>
+    <div
+        class={"fixed bottom-0 w-full duration-200 flex p-10 z-[10] " +
+            (y > 0
+                ? " opacity-full pointer-events-auto"
+                : " pointer-events-none opacity-0")}
+    >
+        <button
+            on:click={goTop}
+            class="ml-auto rounded-full bg-slate-900 text-violet-400 px-3 sm:px-4 hover:bg-slate-800 cursor-pointer aspect-square grid place-items-center"
+        >
+            <i class="fa-solid fa-arrow-up" />
+        </button>
+    </div>
+    <!-- Pass y and optionally innerHeight to Header -->
+    <Header {y} /> 
+    <slot />
+    <Footer />
+</div>
+
+<!-- Bind scrollY and window properties -->
+<svelte:window bind:scrollY={y} bind:innerHeight={innerHeight} bind:innerWidth={innerWidth} />

@@ -1,5 +1,5 @@
-<script lang=ts>
-    import { Alert } from "flowbite-svelte"
+<script>
+    import Main from "../components/Main.svelte";
 </script>
 
-<Alert>Jenishe</Alert>
+<Main />
