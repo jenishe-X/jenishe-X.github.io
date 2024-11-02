@@ -22,9 +22,9 @@
       <DropdownItem>Sign out</DropdownItem>
     </Dropdown>
     <NavUl>
-      <NavLi class="text-white" href="/about">About</NavLi>
-      <NavLi class="text-white" href="/docs/components/navbar">Navbar</NavLi>
-      <NavLi class="text-white" href="/pricing">Pricing</NavLi>
-      <NavLi class="text-white" href="/contact">Contact</NavLi>
+      <NavLi class="text-white" href="">About</NavLi>
+      <NavLi class="text-white" href="">Navbar</NavLi>
+      <NavLi class="text-white" href="">Pricing</NavLi>
+      <NavLi class="text-white" href="">Contact</NavLi>
     </NavUl>
   </Navbar>
