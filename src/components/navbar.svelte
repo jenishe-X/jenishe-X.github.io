@@ -5,7 +5,7 @@
   <Navbar class="bg-yellow-950 text-white">
     <NavBrand href="/">
       <!-- <img src="/images/flowbite-svelte-icon-logo.svg" class="me-3 h-6 sm:h-9" alt="Flowbite Logo" /> -->
-      <span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white">Hi, I'm Jen!</span>
+      <span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white">Jenishe Salem</span>
     </NavBrand>
     <div class="flex items-center md:order-2">
       <Avatar id="avatar-menu" src="assets/pictures/jenishe.jpg" />
