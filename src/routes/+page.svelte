@@ -28,10 +28,12 @@
               <p class="text-base text-white sm:text-lg md:text-xl">
                   Besides web design, I also <span class="text-amber-600">create</span> video presentations with voiceovers, video editing, poster design, and various other editing-related projects.
               </p>
-              <button class="mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-amber-600">
+              <a href="/portfolio" class="block">
+                <button class="mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-amber-600">
                   <div class="absolute top-0 right-full w-full h-full bg-amber-600 opacity-20 group-hover:translate-x-full z-0 duration-200"></div>
                   <h4 class="relative z-9">Meet me better! &rarr;</h4>
-              </button>
+                </button>
+              </a>
           </div>
           <div class="relative place-items-center">
               <div class="relative max-h-[70vh]">

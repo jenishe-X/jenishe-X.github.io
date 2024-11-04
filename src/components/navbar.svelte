@@ -15,9 +15,9 @@
         <span class="block text-sm">Jenishe Salem</span>
         <span class="block truncate text-sm font-medium">jenishedufsalem@gmail.com</span>
       </DropdownHeader>
-      <DropdownItem>Blog</DropdownItem>
-      <DropdownItem>Video Presentation</DropdownItem>
-      <DropdownItem>Posters</DropdownItem>
+      <DropdownItem href="https://coneofjen16.blogspot.com/">Blog</DropdownItem>
+      <DropdownItem href="https://drive.google.com/drive/folders/117UTa4WLuXrMME9sNgpEOIrRA8WJbaMN?usp=drive_link">Video Presentation</DropdownItem>
+      <DropdownItem href="https://github.com/jenishe-X">Github</DropdownItem>
 
     </Dropdown>
     <NavUl>

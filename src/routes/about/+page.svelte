@@ -64,7 +64,7 @@
               </svelte:fragment>
               <p class="text-base font-normal text-gray-500 dark:text-gray-400">Studied Angular and Python</p>
             </TimelineItem>
-            <TimelineItem title="And 3rd Year in GC" date="2024 - 2025">
+            <TimelineItem title="3rd Year Nooooow" date="2024- 2025">
                 <svelte:fragment slot="icon">
                   <div class="flex items-center">
                     <div class="flex z-10 justify-center items-center w-6 h-6 bg-primary-200 rounded-full ring-0 ring-yellow-950 dark:bg-primary-900 sm:ring-8 dark:ring-gray-900 shrink-0">

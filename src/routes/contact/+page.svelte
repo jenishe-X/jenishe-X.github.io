@@ -28,21 +28,27 @@
               <p class="text-base text-white sm:text-lg md:text-xl mb-10 text-left">
                 Stay connected and keep in touch—Get in the Loop with me!
               </p>
+              <a href="https://www.facebook.com/jenishe.salem" class="block">
               <button class="text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-amber-600 mb-4"> <!-- Add mb-4 for spacing -->
                 <div class="absolute top-0 right-full w-full h-full bg-amber-600 opacity-20 group-hover:translate-x-full z-0 duration-200"></div>
-                <h4 class="relative z-9">Meet me better! &rarr;</h4>
+                <h4 class="relative z-9">Facebook &rarr;</h4>
               </button>
-              
+            </a>
+                
+            <a href="https://github.com/jenishe-X" class="block">
               <button class="text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-amber-600 mb-4"> <!-- Add mb-4 for spacing -->
                 <div class="absolute top-0 right-full w-full h-full bg-amber-600 opacity-20 group-hover:translate-x-full z-0 duration-200"></div>
-                <h4 class="relative z-9">Meet me better! &rarr;</h4>
+                <h4 class="relative z-9">Github &rarr;</h4>
               </button>
+            </a>
               
+            
               <button class="text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-amber-600"> <!-- No mb-4 on the last button -->
                 <div class="absolute top-0 right-full w-full h-full bg-amber-600 opacity-20 group-hover:translate-x-full z-0 duration-200"></div>
-                <h4 class="relative z-9">Meet me better! &rarr;</h4>
+                <h4 class="relative z-9">jenishedufsalem@gmail.com</h4>
               </button>
-              
+            
+            
             </div>
           </div>
         </div>
