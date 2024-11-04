@@ -5,6 +5,24 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+@keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%; /* Full width for the text */
+    }
+  }
+
+  @keyframes blink-caret {
+    from, to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: white; /* Color of the cursor */
+    }
+  }
+
 @keyframes rotate {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
@@ -99,3 +117,10 @@
 .animate-wiggle {
     animation: wiggle 1s ease-in-out infinite;
 }
+
+.typing {
+    border-right: 2px solid white; /* Cursor effect */
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden; /* Hide the overflowing text */
+    animation: typing 5s steps(50, end), blink-caret 0.75s step-end infinite;
+  }
