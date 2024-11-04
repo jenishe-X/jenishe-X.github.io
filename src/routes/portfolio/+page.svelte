@@ -1,6 +1,8 @@
 <script>
     import { Gallery } from 'flowbite-svelte';
     import { Card, Button } from 'flowbite-svelte';
+    
+  
     const images = [
       { alt: 'erbology', src: 'https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg' },
       { alt: 'shoes', src: 'https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg' },
@@ -17,6 +19,7 @@
     ];
   </script>
   
+
   <div class="flex flex-col items-center mt-16 space-y-10"> <!-- Added space-y-10 for vertical spacing -->
     <div class="flex flex-col justify-center items-center text-center gap-8 md:gap-10">
         <h2 class="font-semibold text-4xl text-white sm:text-5xl md:text-6xl">

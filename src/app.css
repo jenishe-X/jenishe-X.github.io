@@ -49,6 +49,11 @@
 
 }
 
+.custom-timeline-item h2 {
+    color: #eab308; /* Tailwind 'text-yellow-600' */
+  }
+  
+
 .animate-rotate {
     animation: rotate 5s linear infinite;
     transform-origin: center;
