@@ -1,14 +1,12 @@
 <script>
     import { Gallery } from 'flowbite-svelte';
     import { Card, Button } from 'flowbite-svelte';
-    
-  
     const images = [
-      { alt: 'erbology', src: 'https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg' },
-      { alt: 'shoes', src: 'https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg' },
-      { alt: 'small bag', src: 'https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg' },
-      { alt: 'plants', src: 'https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg' },
-      { alt: 'watch', src: 'https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg' },
+      { alt: 'istorya', src: 'assets/portfolio/3.jpg' },
+      { alt: 'soul', src: 'assets/portfolio/1.jpg' },
+      { alt: 'buzzer', src: 'assets/portfolio/5.png' },
+      { alt: 'ccs', src: 'assets/portfolio/2.jpg' },
+      { alt: 'charcounter', src: 'assets/portfolio/4.jpg' },
       { alt: 'shoe', src: 'https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg' },
       { alt: 'cream', src: 'https://flowbite.s3.amazonaws.com/docs/gallery/square/image-6.jpg' },
       { alt: 'small bag', src: 'https://flowbite.s3.amazonaws.com/docs/gallery/square/image-7.jpg' },
